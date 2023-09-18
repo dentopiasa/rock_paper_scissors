@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -28,7 +32,6 @@
 
 .score div {
     display: inline-block;
-    padding: 50px;
 }
 
 .btn-restart {
@@ -37,4 +40,9 @@
     border: 3px solid black;
     cursor: pointer;
     padding: 10px;
+}
+
+.comment {
+    font-size: 30px;
+    padding: 30px;
 }
